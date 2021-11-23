@@ -50,8 +50,6 @@ void PPU::Reset()
     screenSurface = SDL_GetWindowSurface(m_window);
 
     backBuffer = SDL_CreateRGBSurface(0, 240, 240, 32, 0, 0, 0, 0);
-
-
 }
 
 void PPU::Init(NES* pr_NESParam, CPU* pr_CPUParam, unsigned char* pr_CPUMemParam, unsigned char* pr_PPUMemParam)
