@@ -49,7 +49,6 @@ void PPU::Reset()
     m_window = SDL_CreateWindow("NES Emulator", 200, 50, 240*3, 240*3, SDL_WINDOW_SHOWN);
     screenSurface = SDL_GetWindowSurface(m_window);
 
-
     backBuffer = SDL_CreateRGBSurface(0, 240, 240, 32, 0, 0, 0, 0);
 
 
